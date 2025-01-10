@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Power BI Projects</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-color: #0078D7;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #005A9E;
+            padding: 0.5em 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 2em;
+            text-align: center;
+        }
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1em;
+            margin-top: 1em;
+        }
+        .project-card {
+            background: white;
+            padding: 1em;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .contact-form {
+            max-width: 500px;
+            margin: 0 auto;
+            text-align: left;
+        }
+        .contact-form label {
+            display: block;
+            margin-bottom: 0.5em;
+            font-weight: bold;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 0.5em;
+            margin-bottom: 1em;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            background-color: #0078D7;
+            color: white;
+            padding: 0.7em 1.5em;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #005A9E;
+        }
+        footer {
+            background-color: #0078D7;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            margin-top: 2em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao Meu Portfólio Power BI</h1>
+        <p>Transformando dados em insights valiosos</p>
+    </header>
+
+    <nav>
+        <a href="#projetos">Projetos</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#sobre">Sobre Mim</a>
+        <a href="#contato">Contato</a>
+    </nav>
+
+    <section id="projetos">
+        <h2>Exemplos de Projetos</h2>
+        <div class="projects">
+            <div class="project-card">
+                <h3>Dashboard de Vendas</h3>
+                <p>Um painel interativo para análise de vendas em tempo real.</p>
+            </div>
+            <div class="project-card">
+                <h3>Análise de RH</h3>
+                <p>Visualizações detalhadas para métricas de desempenho e retenção.</p>
+            </div>
+            <div class="project-card">
+                <h3>Gestão Financeira</h3>
+                <p>Insights sobre orçamento e despesas em gráficos intuitivos.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="servicos">
+        <h2>Meus Serviços</h2>
+        <p>Ofereço consultoria, desenvolvimento de dashboards e treinamento em Power BI.</p>
+    </section>
+
+    <section id="sobre">
+        <h2>Sobre Mim</h2>
+        <p>Sou especialista em Power BI, com anos de experiência transformando dados em decisões estratégicas.</p>
+    </section>
+
+    <section id="contato">
+        <h2>Entre em Contato</h2>
+        <form class="contact-form">
+            <label for="name">Nome</label>
+            <input type="text" id="name" name="name" placeholder="Seu nome" required>
+
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" placeholder="Seu e-mail" required>
+
+            <label for="message">Mensagem</label>
+            <textarea id="message" name="message" rows="5" placeholder="Sua mensagem" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Meu Portfólio Power BI. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
